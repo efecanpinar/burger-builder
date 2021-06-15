@@ -1,0 +1,48 @@
+.wrapper {
+  margin: auto;
+  align-self: center;
+  height: 500px;
+  width: 350px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.wrapper > * {
+  border: 3px solid #1b0f01;
+  margin: 1px;
+  align-self: center;
+}
+
+.bread-top {
+  height: 75px;
+  border-radius: 100px 100px 20px 20px;
+  height: 120px;
+  background: linear-gradient(#ffb737, #e88b00);
+}
+
+.bread-bottom {
+  height: 40px;
+  background: #e88b00;
+  border-radius: 15px;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+  .wrapper {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+  .wrapper {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .wrapper {
+    width: 350px;
+    height: 500px;
+  }
+}
