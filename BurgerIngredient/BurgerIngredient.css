@@ -1,0 +1,19 @@
+.cheese {
+  height: 10px;
+  background-color: #fdde03;
+  border-radius: 10%;
+}
+
+.meat {
+  height: 20px;
+  background: #98503b;
+  border-radius: 5px;
+}
+
+.salad {
+  height: 15px;
+  background: #04aa5a;
+  border-radius: 10px;
+  border-left: 1px;
+  border-right: 1px;
+}
